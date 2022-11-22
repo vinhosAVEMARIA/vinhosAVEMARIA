@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+   }
+
+/*body {
+    background: rgb(177,18,37);
+    background: linear-gradient(0deg, rgba(177,18,37,1) 25%, rgba(129,0,32,1) 71%);
+} */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(177,18,37);
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+}
+
+.header {
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 40px;
+    padding: 20px;
+    gap: 8px 15px;
+    margin-bottom: 50px;
+}
+
+.logo-avemaria {
+    height: 60px;
+}
+
+.header-container {
+    display: flex;
+    gap: 15px;
+    padding-right: 20px;
+}
+
+.section-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.wine-title {
+    margin-bottom: 10px;
+}
+
+.wine-title {
+    text-align: center;
+    padding: 10px 0px 30px 0px;
+    font-size: 40px;
+}
+
+.img {
+    height: 500px;
+    width: 200px;
+    transition: 0.5s all ease-in-out;
+}
+
+/*.img:hover {
+    transform: scale(1.5);
+}*/
+
+.img-card {
+    background-color: white;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-description {
+    cursor: pointer;
+    margin: 10px 10px;  
+    appearance: none;
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+}
+.btn-description:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.btn-description:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+.btn-description:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.btn-description:focus {
+  outline: 1px transparent;
+}
+
+.btn-description:before {
+  display: none;
+}
+
+.btn-description:-webkit-details-marker {
+  display: none;
+}  
+
+
+.merlot-button {
+    background-image: url(img/castas/MERLOT.jpg);
+    background-size: cover;
+    border: none;
+}
+
+.castas-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 120px;  
+}
+
+.reservas-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 120px;  
+    
+}
+
+.espumantes-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.footer {
+    width: 100%;
+    min-height: 40px;
+    background-color: #292929;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.swal-overlay {
+    background-color:rgb(177,18,37,0.45);
+  }
+
+.swal-text {
+    font-family: 'Roboto', sans-serif;
+    margin: 22px;
+    color: #171717;
+  }
+
+@media (max-width: 768px) {
+    .header {
+        justify-content: center;
+    }   
+}  
+
+@media (max-width: 472px) {
+    .castas-container {
+        margin-left: 10px;
+        margin-right: 10px; 
+    }
+    
+    .reservas-container {
+        margin-left: 10px;
+        margin-right: 10px;      
+    }
+    
+    .espumantes-container {
+        margin-left: 10px;
+        margin-right: 10px; 
+    }    
+
+    .logo-avemaria {
+        height: 48px;
+    }  
+
+    .footer-anchor {
+        font-size: 16px;
+    }
+
+    .wine-title {
+        font-size: 34px;
+    }
+
+    .img {
+        height: 380px;
+        width: 155px;
+    }
+} 
+
+
+@media (max-width: 379px) {
+    .img {
+        height: 400px;
+        width: 175px;
+    }
+
+} 
+
+@media (max-width: 290px) {
+    .container {
+        width: 290px;
+    }    
+} 

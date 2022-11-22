@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Catálogo AVEMARIA</title>
+    <script src="index.js" defer></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="img/logo-ave-maria.png" alt="" class="logo-avemaria">
+            <div class="header-container">
+                <a href="#goto-castas" class="footer-anchor">CASTAS</a>
+                <a href="#goto-reservas" class="footer-anchor">RESERVAS</a>
+                <a href="#goto-espumantes" class="footer-anchor">ESPUMANTES</a>
+            </div>
+        </header>
+        
+        <section class="section-container">
+
+            <h1 class="wine-title" id="goto-castas">CASTAS</h1>
+
+            <div class="castas-container">
+                <div class="img-card">
+                    <img src="img/castas/MERLOT.jpg" class="img" alt="Merlot">
+                    <p class="img-card-name">MERLOT</p> 
+                    <button class="btn-description" id="merlot" onclick="showDescription(this.getAttribute('id'))">Descrição</button>
+                </div>
+                <div class="img-card">     
+                    <img src="img/castas/CHARDONAY.jpg" class="img" alt="Chardonnay">    
+                    <p class="img-card-name">CHARDONNAY</p>    
+                    <button class="btn-description" id="chardonnay" onclick="showDescription(this.getAttribute('id'))">Descrição</button>
+                </div>
+                <div class="img-card">
+                    <img src="img/castas/C.SAUVIGNON.jpg" class="img" alt="Cabernet Sauvignon">
+                    <p class="img-card-name">C.SAUVIGNON</p> 
+                    <button class="btn-description" id="sauvignon" onclick="showDescription(this.getAttribute('id'))">Descrição</button>  
+                </div>
+                <div class="img-card">
+                    <img src="img/castas/TANNAT.jpg" class="img" alt="Tannat"> 
+                    <p class="img-card-name">TANNAT</p>
+                    <button class="btn-description" id="tannat" onclick="showDescription(this.getAttribute('id'))">Descrição</button>   
+                </div>
+            </div>
+
+            <h1 class="wine-title" id="goto-reservas">RESERVAS</h1>
+
+            <div class="reservas-container">
+                
+                <div class="img-card">
+                    <img src="img/reservas/C.FRANC.jpg" class="img" alt="Cabernet Franc">  
+                    <p class="img-card-name">C.FRANC</p> 
+                    <button class="btn-description" id="franc" onclick="showDescription(this.getAttribute('id'))">Descrição</button> 
+                </div>
+                <div class="img-card">
+                    <img src="img/reservas/MALBEC.jpg" class="img" alt="Malbec">    
+                    <p class="img-card-name">MALBEC</p>
+                    <button class="btn-description" id="malbec" onclick="showDescription(this.getAttribute('id'))">Descrição</button>
+                </div>
+                <div class="img-card">
+                    <img src="img/reservas/MARSELAN.jpg" class="img" alt="Marselan"> 
+                    <p class="img-card-name">MARSELAN</p>   
+                    <button class="btn-description" id="marselan" onclick="showDescription(this.getAttribute('id'))">Descrição</button>   
+                </div>
+            </div>
+
+            <h1 class="wine-title" id="goto-espumantes">ESPUMANTES</h1>
+
+            <div class="espumantes-container">
+                <div class="img-card">
+                    <img src="img/espumantes/BRUT BRANCO.jpg" class="img" alt="Brut Branco">
+                    <p class="img-card-name">BRUT BRANCO</p> 
+                    <button class="btn-description" id="branco" onclick="showDescription(this.getAttribute('id'))">Descrição</button>
+                </div>
+                <div class="img-card">
+                    <img src="img/espumantes/BRUT ROSÉ.jpg" class="img" alt="Brut Rosé">
+                    <p class="img-card-name">BRUT ROSÉ</p>
+                    <button class="btn-description" id="rose" onclick="showDescription(this.getAttribute('id'))">Descrição</button>
+                </div>
+            </div>  
+        </section>    
+    </div>
+</body>
+</html>
