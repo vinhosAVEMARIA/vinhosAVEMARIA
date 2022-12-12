@@ -244,21 +244,64 @@ a:hover {
     }   
 }  
 
+@media (max-width: 530px) {
+
+    .img-card {
+        height: 570px;
+        width: 200px; 
+    }
+
+    #cas-mer {
+        height: 405px;
+        width: 148px;
+    }
+    
+    #cas-cha {
+        height: 405px;
+        width: 171px;
+    }
+    
+    #cas-sau {
+        height: 405px;
+        width: 169px;
+    }
+    
+    #cas-tan {
+        height: 405px;
+        width: 152px;
+    }
+    
+    #res-fra {
+        height: 464px;
+        width: 180px;  
+    }
+
+    #res-mar {
+        height: 464px;
+        width: 180px;  
+    }
+
+    #res-mal {
+        height: 464px;
+        width: 200px;
+    }
+    
+    #esp-bra{
+        height: 455px;
+        width: 200px;
+    }
+    
+    #esp-ros{
+        height: 455px;
+        width: 200px;
+    }       
+}
+
 @media (max-width: 472px) {
-    .castas-container {
-        margin-left: 10px;
-        margin-right: 10px; 
-    }
-    
-    .reservas-container {
-        margin-left: 10px;
-        margin-right: 10px;      
-    }
-    
-    .espumantes-container {
-        margin-left: 10px;
-        margin-right: 10px; 
-    }    
+    .castas-container, .reservas-container, .espumantes-container {
+        padding-left: 5px;
+        padding-right: 5px; 
+    }  
 
     .logo-avemaria {
         height: 48px;
@@ -275,8 +318,8 @@ a:hover {
 
 
 /* @media (max-width: 379px) {
- 
-} */ 
+
+} */
 
 @media (max-width: 290px) {
     .container {
