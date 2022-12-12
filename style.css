@@ -271,21 +271,12 @@ a:hover {
     .wine-title {
         font-size: 34px;
     }
-
-    .img {
-        height: 380px;
-        width: 155px;
-    }
 } 
 
 
-@media (max-width: 379px) {
-    .img {
-        height: 400px;
-        width: 175px;
-    }
-
-} 
+/* @media (max-width: 379px) {
+ 
+} */ 
 
 @media (max-width: 290px) {
     .container {
