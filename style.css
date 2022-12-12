@@ -78,6 +78,41 @@ a:hover {
     transition: 0.5s all ease-in-out;
 }
 
+#cas-mer {
+    height: 500px;
+    width: 183px;
+}
+
+#cas-cha {
+    height: 500px;
+    width: 210px;
+}
+
+#cas-sau {
+    height: 500px;
+    width: 205px;
+}
+
+#cas-tan {
+    height: 500px;
+    width: 185px;
+}
+
+#res-mal {
+    height: 510px;
+    width: 221px;
+}
+
+#esp-bra{
+    height: 500px;
+    width: 221px;
+}
+
+#esp-ros{
+    height: 500px;
+    width: 221px;
+}
+
 /*.img:hover {
     transform: scale(1.5);
 }*/
@@ -89,6 +124,9 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 600px;
+    width: 225px;
+    
 }
 
 .btn-description {
