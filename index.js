@@ -48,7 +48,7 @@ let branco = {
 let rose = {
     name: "rose",
     title: "BRUT ROSÉ",
-    description: "Límpido e brilhante, rosa tênue, apresenta perlage fina e consistente, aroma cítrico com notas de frutas vermelhas, em boca leve, com bom corpo e refrescante. \n \n Região: Serra Gaúcha - RS \n \n Altitude: 750 metros. \n \n Sugestão de Harmonização: Frutos do mar, massas leves e risotos. \n \n MÉTODO TRADICIONAL. \n \n Temperatura de consumo: 4º a 6º C.",
+    description: "Límpido e brilhante, rosa tênue, apresenta perlage fina e consistente, aroma cítrico com notas de frutas vermelhas, em boca leve, com bom corpo e refrescante. \n \n MÉTODO TRADICIONAL. \n \n Região: Serra Gaúcha - RS \n \n Altitude: 750 metros. \n \n Sugestão de Harmonização: Frutos do mar, massas leves e risotos. \n \n Temperatura de consumo: 4º a 6º C.",
 };
 
 let wineDescriptionList = [merlot, chardonnay, sauvignon, tannat, franc, marselan, malbec,  branco, rose];
