@@ -303,6 +303,36 @@ a:hover {
         padding-right: 5px; 
     }  
 
+    .img-card {
+        height: 525px;
+        width: 180px; 
+    }
+
+    #res-fra {
+        height: 418px;
+        width: 165px;  
+    }
+
+    #res-mar {
+        height: 418px;
+        width: 165px;  
+    }
+
+    #res-mal {
+        height: 418px;
+        width: 180px;
+    }
+
+    #esp-bra{
+        height: 410px;
+        width: 180px;
+    }
+    
+    #esp-ros{
+        height: 410px;
+        width: 180px;
+    }  
+
     .logo-avemaria {
         height: 48px;
     }  
