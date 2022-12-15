@@ -358,8 +358,76 @@ a:hover {
     .wine-title {
         font-size: 34px;
     }
-}  
+} 
 
+@media (max-width: 390px) { 
+
+    .img-card {
+        height: 415px;
+        width: 135px; 
+    }
+
+    .img-card-name {
+        font-size: 17px;
+    }
+
+    #cas-mer {
+        height: 340px;
+        width: 121px;
+    }
+
+    #cas-cha {
+        height: 401px;
+        width: 135px;
+    }
+
+    #cas-sau {
+        height: 415px;
+        width: 135px;
+    }
+
+    #cas-tan {
+        height: 340px;
+        width: 121px;
+    }
+
+    #res-fra {
+        height: 418px;
+        width: 135px;  
+    }
+
+    #res-mar {
+        height: 352px;
+        width: 135px;  
+    }
+
+    #res-mal {
+        height: 418px;
+        width: 135px;
+    }
+
+    #esp-bra{
+        height: 410px;
+        width: 135px;
+    }
+    
+    #esp-ros{
+        height: 410px;
+        width: 135px;
+    }  
+
+    .logo-avemaria {
+        height: 48px;
+    }  
+
+    .footer-anchor {
+        font-size: 16px;
+    }
+
+    .wine-title {
+        font-size: 34px;
+    }
+}
 
 /* @media (max-width: 379px) {
 
