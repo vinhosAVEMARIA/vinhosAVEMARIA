@@ -304,8 +304,22 @@ a:hover {
     }  
 
     .img-card {
-        height: 525px;
-        width: 180px; 
+        height: 511px;
+        width: 165px; 
+    }
+
+    .img-card-name {
+        font-size: 18px;
+    }
+
+    #cas-cha {
+        height: 401px;
+        width: 165px;
+    }
+
+    #cas-sau {
+        height: 404px;
+        width: 165px;
     }
 
     #res-fra {
@@ -320,17 +334,17 @@ a:hover {
 
     #res-mal {
         height: 418px;
-        width: 180px;
+        width: 165px;
     }
 
     #esp-bra{
         height: 410px;
-        width: 180px;
+        width: 165px;
     }
     
     #esp-ros{
         height: 410px;
-        width: 180px;
+        width: 165px;
     }  
 
     .logo-avemaria {
@@ -344,7 +358,7 @@ a:hover {
     .wine-title {
         font-size: 34px;
     }
-} 
+}  
 
 
 /* @media (max-width: 379px) {
