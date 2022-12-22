@@ -363,7 +363,7 @@ a:hover {
 @media (max-width: 390px) { 
 
     .img-card {
-        height: 430px;
+        height: 427px;
         width: 137px; 
     }
 
@@ -372,12 +372,12 @@ a:hover {
     }
 
     #cas-mer {
-        height: 340px;
+        height: 354px;
         width: 121px;
     }
 
     #cas-cha {
-        height: 401px;
+        height: 498px;
         width: 135px;
     }
 
@@ -387,7 +387,7 @@ a:hover {
     }
 
     #cas-tan {
-        height: 340px;
+        height: 362px;
         width: 121px;
     }
 
