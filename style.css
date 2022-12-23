@@ -29,7 +29,8 @@ a:hover {
     display: flex;
     flex-direction: column;
     padding-bottom: 50px;
-    background-image: url(img/banner.jpg);
+    background-color: #9e477b;
+    /*background-image: url(img/banner.jpg);*/
     background-size: cover;
 }
 
