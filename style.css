@@ -28,8 +28,9 @@ a:hover {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    padding-bottom: 50px; 
-    background-image: url(img/banner.jpg);
+    padding-bottom: 50px;
+    /*background-color: #9e477b;*/
+    background-image: url(img/banner_4.jpg);
     background-size: cover;
 }
 
@@ -99,8 +100,8 @@ a:hover {
 }
 
 #res-mal {
-    height: 510px;
-    width: 221px;
+    height: 499px;
+    width: 150px;
 }
 
 #esp-bra{
@@ -242,6 +243,10 @@ a:hover {
     .header {
         justify-content: center;
     }   
+    .container {
+        background-image: url(img/banner_4_medium_vertical.jpg);
+        background-size: auto;
+    }
 }  
 
 @media (max-width: 530px) {
