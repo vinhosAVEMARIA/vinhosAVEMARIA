@@ -243,10 +243,6 @@ a:hover {
     .header {
         justify-content: center;
     }   
-    /*.container {
-        background-image: url(img/banner_4_medium_vertical.jpg);
-        background-size: auto;
-    }*/
 }  
 
 @media (max-width: 530px) {
