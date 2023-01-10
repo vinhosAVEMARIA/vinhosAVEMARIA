@@ -30,7 +30,7 @@ a:hover {
     flex-direction: column;
     padding-bottom: 50px;
     /*background-color: #9e477b;*/
-    background-image: url(img/banner_4.jpg);
+    background-image: url(img/banner.jpg);
     background-size: cover;
 }
 
@@ -243,10 +243,10 @@ a:hover {
     .header {
         justify-content: center;
     }   
-    .container {
+    /*.container {
         background-image: url(img/banner_4_medium_vertical.jpg);
         background-size: auto;
-    }
+    }*/
 }  
 
 @media (max-width: 530px) {
