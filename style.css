@@ -251,6 +251,11 @@ a:hover {
 
 @media (max-width: 530px) {
 
+    .container {
+        background-image: url(img/banner_4_small_vertical.jpg);
+        background-size: auto;
+    }
+
     .img-card {
         height: 570px;
         width: 200px; 
@@ -287,8 +292,8 @@ a:hover {
     }
 
     #res-mal {
-        height: 464px;
-        width: 200px;
+        height: 465px;
+        width: 137px;
     }
     
     #esp-bra{
@@ -339,7 +344,7 @@ a:hover {
 
     #res-mal {
         height: 418px;
-        width: 165px;
+        width: 124px;
     }
 
     #esp-bra{
@@ -368,7 +373,7 @@ a:hover {
 @media (max-width: 390px) { 
 
     .img-card {
-        height: 427px;
+        height: 428px;
         width: 137px; 
     }
 
@@ -402,13 +407,13 @@ a:hover {
     }
 
     #res-mar {
-        height: 352px;
+        height: 356px;
         width: 135px;  
     }
 
     #res-mal {
-        height: 418px;
-        width: 135px;
+        height: 354px;
+        width: 103px;
     }
 
     #esp-bra{
