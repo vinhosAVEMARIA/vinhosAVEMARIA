@@ -251,11 +251,6 @@ a:hover {
 
 @media (max-width: 530px) {
 
-    .container {
-        background-image: url(img/banner_4_small_vertical.jpg);
-        background-size: auto;
-    }
-
     .img-card {
         height: 570px;
         width: 200px; 
